@@ -8,3 +8,13 @@ C:\Users\elarvav\source\repos\Seminar2\Seminar2\obj\Debug\Seminar2.csproj.Genera
 C:\Users\elarvav\source\repos\Seminar2\Seminar2\obj\Debug\Seminar2.csproj.CoreCompileInputs.cache
 C:\Users\elarvav\source\repos\Seminar2\Seminar2\obj\Debug\Seminar2.exe
 C:\Users\elarvav\source\repos\Seminar2\Seminar2\obj\Debug\Seminar2.pdb
+C:\Users\elarvav\Source\Repos\C-Seminar\Seminar2\bin\Debug\Seminar2.exe.config
+C:\Users\elarvav\Source\Repos\C-Seminar\Seminar2\bin\Debug\Seminar2.exe
+C:\Users\elarvav\Source\Repos\C-Seminar\Seminar2\bin\Debug\Seminar2.pdb
+C:\Users\elarvav\Source\Repos\C-Seminar\Seminar2\obj\Debug\Seminar2.csprojAssemblyReference.cache
+C:\Users\elarvav\Source\Repos\C-Seminar\Seminar2\obj\Debug\Seminar2.Form1.resources
+C:\Users\elarvav\Source\Repos\C-Seminar\Seminar2\obj\Debug\Seminar2.Properties.Resources.resources
+C:\Users\elarvav\Source\Repos\C-Seminar\Seminar2\obj\Debug\Seminar2.csproj.GenerateResource.cache
+C:\Users\elarvav\Source\Repos\C-Seminar\Seminar2\obj\Debug\Seminar2.csproj.CoreCompileInputs.cache
+C:\Users\elarvav\Source\Repos\C-Seminar\Seminar2\obj\Debug\Seminar2.exe
+C:\Users\elarvav\Source\Repos\C-Seminar\Seminar2\obj\Debug\Seminar2.pdb
