@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
+using System.Net;
 
 namespace Seminar2
 {
@@ -31,8 +27,8 @@ namespace Seminar2
             {
             
             richTextBox1.Text = File.ReadAllText(openFileDialog1.FileName); ;
-            string result = Regex.Replace(richTextBox1.Text, @"\s*(<[^>]*>*)\s*", String.Empty);
-            richTextBox2.Text = Regex.Unescape(result);
+            string result = Regex.Replace(richTextBox1.Text, @"<.*?>", String.Empty);
+            richTextBox2.Text = WebUtility.HtmlDecode(result);
             }
         }
 
@@ -44,8 +40,8 @@ namespace Seminar2
         private void button2_Click(object sender, EventArgs e)
         {
             string html_text = richTextBox1.Text;
-            string result = Regex.Replace(html_text, @"\s*(<[^>]*>*)\s*", String.Empty);
-            richTextBox2.Text = Regex.Unescape(result);
+            string result = Regex.Replace(html_text, @"<.*?>", String.Empty);
+            richTextBox2.Text = WebUtility.HtmlDecode(result);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -60,8 +56,8 @@ namespace Seminar2
                 StreamReader readStream = new StreamReader(receiveStream, Encoding.GetEncoding(response.CharacterSet));
                 string data = readStream.ReadToEnd();
                 richTextBox1.Text = data;
-                String result = Regex.Replace(data, @"\s*(<[^>]*>*)\s*", String.Empty);
-                richTextBox2.Text = Regex.Unescape(result);
+                String result = Regex.Replace(data, @"<.*?>", String.Empty);
+                richTextBox2.Text = WebUtility.HtmlDecode(result);
                 response.Close();
                 readStream.Close();
             }
